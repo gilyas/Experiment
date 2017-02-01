@@ -1,4 +1,5 @@
 theme: jekyll-theme-architect
 title: My Public Repository
 description: Here from time to time I will put some sample experiment code.
-show_downloads: false 
+show_downloads: false
+permalink: /blog/:year/:month/:day/:title
