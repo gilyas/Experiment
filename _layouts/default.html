@@ -1,28 +1,47 @@
 <!DOCTYPE html>
-	<html>
-		<head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+			<link href="css/bootstrap.min.css" rel="stylesheet">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link href="css/style.css" rel="stylesheet" />
+
 			{% include analytics.html %}
 		</head>
 		<body>
+			<!--
 			<nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
 	        		<li><a href="/blog/">Blog</a></li>
 	    		</ul>
 			</nav>
+			-->
 			<div class="container">
 			
 			{{ content }}
 			
 			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="https://github.com/gilyas">github.com/gilyas</a></li>
-				</ul>
+
+			<footer> 
+				<div class="col-md-6 col-md-offset-3">
+					<div class="text-center">
+						<div class="copyright">
+							<a href="https://github.com/gilyas">github.com/gilyas</a>&nbsp; &copy; 2017 - All Rights Reserved.
+						</div>
+					</div>	
+				</div>		
 			</footer>
+
+			    <script src="js/jquery-2.1.1.min.js"></script>	
+			    <script src="js/bootstrap.min.js"></script>
 		</body>
 	</html>
