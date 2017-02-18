@@ -1,47 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: compress
+---
+<!doctype html>
+<html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
+<head>
+	{% include _head.html %}
+</head>
+<body id="top-of-page" class="{{ layout.format }}">
+	{% unless page.skip_boilerplate %}
+	{% include _navigation.html %}
+	{% endunless %}
 
-			<title>{{ page.title }}</title>
+	{% include _masthead.html %}
+	{{ content }}
 
+	{% unless page.skip_boilerplate %}
+	{% include _footer.html %}
+	{% endunless %}
 
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
-			<link href="css/bootstrap.min.css" rel="stylesheet">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link href="css/style.css" rel="stylesheet" />
-
-			{% include analytics.html %}
-		</head>
-		<body>
-			<!--
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-	        		<li><a href="/blog/">Blog</a></li>
-	    		</ul>
-			</nav>
-			-->
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-
-			<footer> 
-				<div class="col-md-6 col-md-offset-3">
-					<div class="text-center">
-						<div class="copyright">
-							<a href="https://github.com/gilyas">github.com/gilyas</a>&nbsp; &copy; {{site.time | date: "%Y"}} - All Rights Reserved.
-						</div>
-					</div>	
-				</div>		
-			</footer>
-
-			    <script src="js/jquery-2.1.1.min.js"></script>	
-			    <script src="js/bootstrap.min.js"></script>
-		</body>
-	</html>
+	{% include _footer_scripts.html %}
+</body>
+</html>

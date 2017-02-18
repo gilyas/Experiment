@@ -1,11 +1,8 @@
 ---
-layout: default
-title: Gulzaman Ilyas's Blog
+layout: blog
+title: "Blog of gilyas.github.io"
+teaser: "This is the Blog site of gilyas.github.io."
+header:
+    image_fullwidth: "header-bus.jpg"
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>

@@ -1,0 +1,54 @@
+- name: GitHub
+  url: http://github.com/gilyas
+  class: icon-github
+  title: Source Code, Snippets...
+
+#- name: YouTube
+#  url: http://www.youtube.com/zamanilyass
+#  class: icon-youtube
+#  title: "YouTube"
+
+- name: Twitter
+  url: http://twitter.com/gilyas
+  class: icon-twitter
+  title: "Twitter"
+
+#- name: Mixcloud
+#  url: http://www.mixcloud.com/gilyas/
+#  class: icon-cloud
+#  title: "Mixcloud"
+
+#- name: YouTube Google+
+#  url: https://plus.google.com/u/0/+zamanilyass
+#  class: icon-googleplus
+#  title: "YouTube Google+"
+
+- name: LinkedIn
+  url: https://www.linkedin.com/in/gulzamanilyas
+  class: icon-linkedin
+  title: "LinkedIn"
+
+# - name: Facebook
+#   url: http://www.facebook.com/
+#   class: icon-facebook
+#   title: "Facebook"
+
+# - name: Soundcloud
+#   url: http://soundcloud.com/
+#   class: icon-soundcloud
+#   title: "Soundcloud"
+
+# - name: Instagram
+#   url: http://instagram.com/
+#   class: icon-instagram
+#   title: "Instagram"
+
+# - name: Pinterest
+#   url: http://www.pinterest.com/
+#   class: icon-pinterest
+#   title: "Pinterest"
+
+# - name: Xing
+#   url: https://www.xing.com/profile/
+#   class: icon-xing
+#   title: Xing Profile
