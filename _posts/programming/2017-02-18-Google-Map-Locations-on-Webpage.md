@@ -17,20 +17,17 @@ tags:
 #
 header: no
 image:
-    title: lrssalok1fu-rawpixel-com.jpg
-    thumb: lrssalok1fu-rawpixel-com.jpg
-    homepage: lrssalok1fu-rawpixel-com.jpg
+    title: screenshots/google_maps_places_javascript_api.jpg
+    thumb: screenshots/google_maps_places_javascript_api.jpg
+    homepage: screenshots/google_maps_places_javascript_api.jpg
     caption: Photo by UnSplash
     caption_url: http://unsplash.com/
 ---
-You can see working copy on <a href="https://gilyas.github.io/google_maps_apis.github.io/google_maps_places_api/google_map_places.html" target=_blank>Demo Page</a><br/>
+You can see working copy on https://gilyas.github.io/google_maps_apis.github.io/google_maps_places_api/google_map_places.html
 
-Below is a screenshot.<br/>
-<img src="{{ site.urlimg }}screenshots/lrssalok1fu-rawpixel-com.jpg" alt=""><br/>
+Want to download this code head over to https://github.com/gilyas/google_maps_apis.github.io
 
-Want to download this code head over to <a href="https://github.com/gilyas/google_maps_apis.github.io" target=_blank>https://github.com/gilyas/google_maps_apis.github.io</a><br/>
-
-Below is the complete page code to display Google Map with HTML & Javascript using Google Map Javascript API.<br/>
+Below is complete page code to display Google Map with HTML & Javascript using Google Map Javascript API.<br/>
 
 {% highlight html %}
 <html>
