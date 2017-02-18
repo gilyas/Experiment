@@ -1,5 +1,11 @@
 ---
-layout: post
+layout: page
+categories:
+  - programming
+tags:
+  - HTML
+  - JavaScript
+  - CSS
 author: Gulzaman Ilyas
 title: "Gulzaman Ilyas, Launches Github Experimental Site"
 date: 2017-02-01
