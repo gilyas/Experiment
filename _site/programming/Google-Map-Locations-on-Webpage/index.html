@@ -219,7 +219,58 @@
 			
 
 			<div itemprop="articleSection">
-			<p>This contend will be updated soon.</p>
+			<p>Below is the complete page code to display Google Map with HTML &amp; Javascript using API.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Index<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"divMap"</span> <span class="na">style=</span><span class="s">"width: 500px; height: 500px"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"https://maps.googleapis.com/maps/api/js?key=AIzaSyBip14VfDly0JQJXcMDy7wUVIdS-MfAiVo"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
+        <span class="kd">var</span> <span class="nx">markers</span> <span class="o">=</span> <span class="p">[{</span><span class="s1">'title'</span><span class="p">:</span> <span class="s1">'Islamabad'</span><span class="p">,</span><span class="s1">'lat'</span><span class="p">:</span> <span class="s1">'33.669300'</span><span class="p">,</span><span class="s1">'lng'</span><span class="p">:</span> <span class="s1">'72.844800'</span><span class="p">,</span><span class="s1">'description'</span><span class="p">:</span> <span class="s1">'Capital City of Pakistan. Lush green and great views and weather.'</span><span class="p">},{</span><span class="s1">'title'</span><span class="p">:</span> <span class="s1">'Lahore'</span><span class="p">,</span><span class="s1">'lat'</span><span class="p">:</span> <span class="s1">'31.924600'</span><span class="p">,</span><span class="s1">'lng'</span><span class="p">:</span> <span class="s1">'74.284700'</span><span class="p">,</span><span class="s1">'description'</span><span class="p">:</span> <span class="s1">'Lahore City of Lively People, is the Heart of the Pakistani Province Punjab.'</span><span class="p">}];</span>
+        <span class="nb">window</span><span class="p">.</span><span class="nx">onload</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+            <span class="kd">var</span> <span class="nx">mapOptions</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="na">center</span><span class="p">:</span> <span class="k">new</span> <span class="nx">google</span><span class="p">.</span><span class="nx">maps</span><span class="p">.</span><span class="nx">LatLng</span><span class="p">(</span><span class="nx">markers</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">lat</span><span class="p">,</span> <span class="nx">markers</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">lng</span><span class="p">),</span>
+                <span class="na">zoom</span><span class="p">:</span> <span class="mi">7</span><span class="p">,</span>
+                <span class="na">mapTypeId</span><span class="p">:</span> <span class="nx">google</span><span class="p">.</span><span class="nx">maps</span><span class="p">.</span><span class="nx">MapTypeId</span><span class="p">.</span><span class="nx">ROADMAP</span><span class="p">,</span>
+                <span class="c1">//disableDefaultUI: true</span>
+                <span class="na">panControl</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+                <span class="na">zoomControl</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+                <span class="na">mapTypeControl</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+                <span class="na">scaleControl</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+                <span class="na">streetViewControl</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+                <span class="na">overviewMapControl</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+                <span class="na">rotateControl</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+                <span class="na">mapTypeId</span><span class="p">:</span> <span class="nx">google</span><span class="p">.</span><span class="nx">maps</span><span class="p">.</span><span class="nx">MapTypeId</span><span class="p">.</span><span class="nx">TERRAIN</span>
+            <span class="p">};</span>
+            <span class="kd">var</span> <span class="nx">infoWindow</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">google</span><span class="p">.</span><span class="nx">maps</span><span class="p">.</span><span class="nx">InfoWindow</span><span class="p">();</span>
+            <span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">google</span><span class="p">.</span><span class="nx">maps</span><span class="p">.</span><span class="nx">Map</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">"divMap"</span><span class="p">),</span> <span class="nx">mapOptions</span><span class="p">);</span>
+            <span class="k">for</span> <span class="p">(</span><span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">markers</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+                <span class="kd">var</span> <span class="nx">data</span> <span class="o">=</span> <span class="nx">markers</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span>
+                <span class="kd">var</span> <span class="nx">myLatlng</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">google</span><span class="p">.</span><span class="nx">maps</span><span class="p">.</span><span class="nx">LatLng</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">lat</span><span class="p">,</span> <span class="nx">data</span><span class="p">.</span><span class="nx">lng</span><span class="p">);</span>
+                <span class="kd">var</span> <span class="nx">marker</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">google</span><span class="p">.</span><span class="nx">maps</span><span class="p">.</span><span class="nx">Marker</span><span class="p">({</span>
+                    <span class="na">position</span><span class="p">:</span> <span class="nx">myLatlng</span><span class="p">,</span>
+                    <span class="na">map</span><span class="p">:</span> <span class="nx">map</span><span class="p">,</span>
+                    <span class="na">title</span><span class="p">:</span> <span class="nx">data</span><span class="p">.</span><span class="nx">title</span><span class="p">,</span>
+                    <span class="na">animation</span><span class="p">:</span> <span class="nx">google</span><span class="p">.</span><span class="nx">maps</span><span class="p">.</span><span class="nx">Animation</span><span class="p">.</span><span class="nx">BOUNCE</span>
+                <span class="p">});</span>
+                <span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">marker</span><span class="p">,</span> <span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+                    <span class="nx">google</span><span class="p">.</span><span class="nx">maps</span><span class="p">.</span><span class="nx">event</span><span class="p">.</span><span class="nx">addListener</span><span class="p">(</span><span class="nx">marker</span><span class="p">,</span> <span class="s2">"click"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+                        <span class="nx">infoWindow</span><span class="p">.</span><span class="nx">setContent</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">description</span><span class="p">);</span>
+                        <span class="nx">infoWindow</span><span class="p">.</span><span class="nx">open</span><span class="p">(</span><span class="nx">map</span><span class="p">,</span> <span class="nx">marker</span><span class="p">);</span>
+                    <span class="p">});</span>
+                <span class="p">})(</span><span class="nx">marker</span><span class="p">,</span> <span class="nx">data</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="nt">&lt;/script&gt;</span>
+
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
 
 			</div>
 
