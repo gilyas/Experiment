@@ -10,9 +10,9 @@ author: Gulzaman Ilyas
 title: "Gulzaman Ilyas, Launches Github Experimental Site"
 date: 2017-02-01
 image:
-    title: lrssalok1fu-rawpixel-com.jpg
-    thumb: lrssalok1fu-rawpixel-com.jpg
-    homepage: lrssalok1fu-rawpixel-com.jpg
+    title: header_unsplash_1.jpg
+    thumb: header_unsplash_1.jpg
+    homepage: header_unsplash_1.jpg
     caption: Photo by UnSplash
     caption_url: http://unsplash.com/
 ---
