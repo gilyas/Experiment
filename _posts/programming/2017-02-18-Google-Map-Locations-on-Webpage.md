@@ -25,9 +25,6 @@ image:
 ---
 You can see working copy on https://gilyas.github.io/google_maps_apis.github.io/google_maps_places_api/google_map_places.html
 
-Below is a screenshot.
-<img src="{{ site.urlimg }}screenshots/google_maps_places_javascript_api.jpg" alt="">
-
 Want to download this code head over to https://github.com/gilyas/google_maps_apis.github.io
 
 Below is complete page code to display Google Map with HTML & Javascript using Google Map Javascript API.<br/>
