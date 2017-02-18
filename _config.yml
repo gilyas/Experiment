@@ -26,7 +26,7 @@ author: Gulzaman Ilyas
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://gilyas.github.io'
+url: 'https://gilyas.github.io'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
@@ -39,7 +39,7 @@ baseurl: ''
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'http://gilyas.github.io/images/'
+urlimg: 'https://gilyas.github.io/images/'
 
 
 # Logo size is 600x80 pixels
