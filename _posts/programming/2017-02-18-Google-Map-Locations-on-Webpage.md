@@ -23,18 +23,4 @@ image:
     caption: Photo by UnSplash
     caption_url: http://unsplash.com/
 ---
-[mediaelement.js][1] is like magic. It's browser and device support is perfect. To activate the video or audio player just set the following variable in front matter to `true`.
-
-
-
-
- [1]: http://mediaelementjs.com/
- [2]: http://jcorneille.de/
- [3]: www.creativecommons.org/licenses/by-nc-nd/3.0/
- [4]: http://phlow-magazine.com/
- [5]: https://archive.org/details/music_from_all_around_the_world
- [6]: #
- [7]: #
- [8]: #
- [9]: #
- [10]: #
+This contend will be updated soon.
