@@ -8,6 +8,7 @@ tags:
   - CSS
 author: Gulzaman Ilyas
 title: "Gulzaman Ilyas, Launches Github Experimental Site"
+teaser: Well. Finally got around to putting this old website together.
 date: 2017-02-01
 image:
     title: header_unsplash_1.jpg
