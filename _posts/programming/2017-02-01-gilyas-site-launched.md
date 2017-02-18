@@ -10,6 +10,7 @@ author: Gulzaman Ilyas
 title: "Gulzaman Ilyas, Launches Github Experimental Site"
 teaser: Well. Finally got around to putting this old website together.
 date: 2017-02-01
+header: no
 image:
     title: header_unsplash_1.jpg
     thumb: header_unsplash_1.jpg
