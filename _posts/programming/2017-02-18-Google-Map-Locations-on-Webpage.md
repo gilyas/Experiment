@@ -23,7 +23,14 @@ image:
     caption: Photo by UnSplash
     caption_url: http://unsplash.com/
 ---
-Below is the complete page code to display Google Map with HTML & Javascript using API.
+You can see working copy on <a href="https://gilyas.github.io/google_maps_apis.github.io/google_maps_places_api/google_map_places.html" target=_blank>Demo Page</a><br/>
+
+Below is a screenshot.<br/>
+<img src="{{ site.urlimg }}screenshots/lrssalok1fu-rawpixel-com.jpg" alt=""><br/>
+
+Want to download this code head over to <a href="https://github.com/gilyas/google_maps_apis.github.io" target=_blank>https://github.com/gilyas/google_maps_apis.github.io</a><br/>
+
+Below is the complete page code to display Google Map with HTML & Javascript using Google Map Javascript API.<br/>
 
 {% highlight html %}
 <html>
