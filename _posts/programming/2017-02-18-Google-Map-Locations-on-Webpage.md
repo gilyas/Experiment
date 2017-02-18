@@ -27,11 +27,15 @@ You can see working copy on:<br/>
 https://gilyas.github.io/google_maps_apis.github.io/google_maps_places_api/google_map_places.html
 
 Want to download this code head over to:<br/>
- https://github.com/gilyas/google_maps_apis.github.io
- 
- <br/>
+https://github.com/gilyas/google_maps_apis.github.io
 
 Below is complete page code to display Google Map with HTML & Javascript using Google Map Javascript API.<br/>
+
+Put your Google API Key on this line:<br/>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YourKey"></script>
+
+Note:<br/>
+Replace YourKey value with the key you get from https://developers.google.com/maps/ as the one I am using will not work with your site it is specific to my site.
 
 {% highlight html %}
 <html>
