@@ -14,28 +14,31 @@ tags:
   - CSS
 #
 # Styling
-#
-header: no
+# 
+# header: no
+header:
+  image_fullwidth: lrssalok1fu-rawpixel-com.jpg
 image:
     title: screenshots/google_maps_places_javascript_api.jpg
     thumb: screenshots/google_maps_places_javascript_api.jpg
-    homepage: screenshots/google_maps_places_javascript_api.jpg
-    caption: Photo by UnSplash
-    caption_url: http://unsplash.com/
+    homepage: lrssalok1fu-rawpixel-com.jpg
+#    caption: Photo by UnSplash
+#    caption_url: http://unsplash.com/
 ---
-You can see working copy on:<br/>
-https://gilyas.github.io/google_maps_apis.github.io/google_maps_places_api/google_map_places.html
 
-Want to download this code head over to:<br/>
-https://github.com/gilyas/google_maps_apis.github.io
+You can see working [Demo here][1].<br/>
 
-Below is complete page code to display Google Map with HTML & Javascript using Google Map Javascript API.<br/>
+Want to download this code head over to [My Code Repository][2].<br/>
 
 Put your Google API Key on this line:<br/>
+{% highlight javascript %}
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YourKey"></script>
+{% endhighlight %}
 
-Note:<br/>
-Replace YourKey value with the key you get from https://developers.google.com/maps/ as the one I am using will not work with your site it is specific to my site.
+<b>Note:</b><br/>
+Replace <b>YourKey</b> value with the key you get from https://developers.google.com/maps/ as the one I am using will not work with your site it is specific to my site.
+
+Below is complete page code to display Google Map with markers using HTML & Javascript it requires Google Map API.<br/>
 
 {% highlight html %}
 <html>
@@ -89,3 +92,6 @@ Replace YourKey value with the key you get from https://developers.google.com/ma
 </html>
 {% endhighlight %}
 
+
+ [1]: https://gilyas.github.io/google_maps_apis.github.io/google_maps_places_api/google_map_places.html
+ [2]: https://github.com/gilyas/google_maps_apis.github.io

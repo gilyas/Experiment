@@ -186,6 +186,22 @@
 
 	
 
+<div id="masthead">
+	<div class="row">
+		<div class="small-12 columns">
+			<a id="logo" href="http://localhost:4000/" title="Open Source Repository Site by Gulzaman Ilyas – Great Resource for Open Source Code">
+				<img src="http://localhost:4000/assets/img/logo.png" alt="Open Source Repository Site by Gulzaman Ilyas – Great Resource for Open Source Code">
+			</a>
+		</div><!-- /.small-12.columns -->
+	</div><!-- /.row -->
+</div><!-- /#masthead -->
+
+
+
+
+
+
+
 
 
 
@@ -197,10 +213,6 @@
 				<figure>
 					<img src="https://gilyas.github.io/images/screenshots/google_maps_places_javascript_api.jpg" width="970" alt="Display Locations on Google Map using HTML &amp; Javascript" itemprop="image">
 
-					
-					<figcaption class="text-right">
-						<a href="http://unsplash.com/">Photo by UnSplash</a>
-					</figcaption>
 					
 				</figure>
 				
@@ -219,15 +231,18 @@
 			
 
 			<div itemprop="articleSection">
-			<p>You can see working copy on:<br />
-https://gilyas.github.io/google_maps_apis.github.io/google_maps_places_api/google_map_places.html</p>
+			<p>You can see working <a href="https://gilyas.github.io/google_maps_apis.github.io/google_maps_places_api/google_map_places.html">Demo here</a>.<br /></p>
 
-<p>Want to download this code head over to:<br />
- https://github.com/gilyas/google_maps_apis.github.io</p>
+<p>Want to download this code head over to <a href="https://github.com/gilyas/google_maps_apis.github.io">My Code Repository</a>.<br /></p>
 
-<p><br /></p>
+<p>Put your Google API Key on this line:<br /></p>
 
-<p>Below is complete page code to display Google Map with HTML &amp; Javascript using Google Map Javascript API.<br /></p>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">"text/javascript"</span> <span class="nx">src</span><span class="o">=</span><span class="s2">"https://maps.googleapis.com/maps/api/js?key=YourKey"</span><span class="o">&gt;&lt;</span><span class="sr">/script&gt;</span></code></pre></figure>
+
+<p><b>Note:</b><br />
+Replace <b>YourKey</b> value with the key you get from https://developers.google.com/maps/ as the one I am using will not work with your site it is specific to my site.</p>
+
+<p>Below is complete page code to display Google Map with markers using HTML &amp; Javascript it requires Google Map API.<br /></p>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;head&gt;</span>
@@ -486,6 +501,11 @@ https://gilyas.github.io/google_maps_apis.github.io/google_maps_places_api/googl
 <script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 
 
+
+<script>
+    $("#masthead").backstretch("https://gilyas.github.io/images/lrssalok1fu-rawpixel-com.jpg", {fade: 700});
+    $("#masthead-with-text").backstretch("https://gilyas.github.io/images/lrssalok1fu-rawpixel-com.jpg", {fade: 700});
+</script>
 
 
 
