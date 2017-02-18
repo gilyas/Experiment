@@ -89,7 +89,7 @@ compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
   endings: all
-  profile: false
+  profile: true
   ignore:
     envs: [development]
 
@@ -112,14 +112,14 @@ defaults:
       breadcrumb: true
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
-      comments: true
+      comments: false
       author: 'Gulzaman Ilyas'     # Default author for pages
   -
     scope:
       path: ''
       type: 'posts'
     values:
-      breadcrumb: false
+      breadcrumb: true
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: true
@@ -196,7 +196,7 @@ msapplication_tilecolor:                '#fabb00'
 
 socialmedia:
     twitter: gilyas
-    facebook: zaman.ilyas
+#    facebook: zaman.ilyas
 
 
 #        ____  _
