@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/xslt/atom.xslt" ?>
+<?xml-stylesheet type="text/css" href="/assets/css/atom.css" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>http://localhost:4000/</id>
+	<title>Open Source Repository Site by Gulzaman Ilyas</title>
+	<updated>2017-02-18T20:23:37+05:00</updated>
+
+	<subtitle>»Open Source Repository Site by Gulzaman Ilyas« is one shop stop for open source code, snippets and much more...</subtitle>
+
+	
+		
+		<author>
+			
+				<name>Gulzaman Ilyas</name>
+			
+			
+			
+				<uri>http://www.gulzamanilyas.com/</uri>
+			
+		</author>
+	
+
+	<link href="http://localhost:4000/atom.xml" rel="self" type="application/rss+xml" />
+	<link href="http://localhost:4000/" rel="alternate" type="text/html" />
+
+	<generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator>
+
+	
+		<entry>
+			<id>http://localhost:4000/programming/Google-Map-Locations-on-Webpage/</id>
+			<title>Display Locations on Google Map using HTML &amp; Javascript</title>
+			<link href="http://localhost:4000/programming/Google-Map-Locations-on-Webpage/" rel="alternate" type="text/html" title="Display Locations on Google Map using HTML &amp; Javascript" />
+			<updated>2017-02-18T00:00:00+05:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Gulzaman Ilyas</name>
+					
+					
+					
+						<uri>http://www.gulzamanilyas.com/</uri>
+					
+				</author>
+			
+			<summary>Do you want to use google maps on your site or in your project and wondering where to start? Than you likely will like the integration of &lt;em&gt;Google Maps&lt;/em&gt;. It enables you to display Maps and put locations marakers on maps that looks in each browser delicious.</summary>
+			<content type="html" xml:base="http://localhost:4000/programming/Google-Map-Locations-on-Webpage/">&lt;p&gt;This contend will be updated soon.&lt;/p&gt;
+</content>
+
+			
+				<category term="programming" />
+			
+			
+				<category term="HTML" />
+			
+				<category term="JavaScript" />
+			
+				<category term="CSS" />
+			
+
+			<published>2017-02-18T00:00:00+05:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/programming/gilyas-site-launched/</id>
+			<title>Gulzaman Ilyas, Launches Github Experimental Site</title>
+			<link href="http://localhost:4000/programming/gilyas-site-launched/" rel="alternate" type="text/html" title="Gulzaman Ilyas, Launches Github Experimental Site" />
+			<updated>2017-02-01T00:00:00+05:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Gulzaman Ilyas</name>
+					
+					
+					
+						<uri>http://www.gulzamanilyas.com/</uri>
+					
+				</author>
+			
+			<summary></summary>
+			<content type="html" xml:base="http://localhost:4000/programming/gilyas-site-launched/">&lt;p&gt;Well. Finally got around to putting this old website together. Neat thing about it - powered by &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; 
+and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be :-).&lt;/p&gt;
+</content>
+
+			
+				<category term="programming" />
+			
+			
+				<category term="HTML" />
+			
+				<category term="JavaScript" />
+			
+				<category term="CSS" />
+			
+
+			<published>2017-02-01T00:00:00+05:00</published>
+		</entry>
+	
+</feed>

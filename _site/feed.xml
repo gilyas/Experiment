@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:4000/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="http://localhost:4000/assets/css/rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Open Source Repository Site by Gulzaman Ilyas</title>
+		<description>»Open Source Repository Site by Gulzaman Ilyas« is one shop stop for open source code, snippets and much more...</description>
+		<link>http://localhost:4000/</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Display Locations on Google Map using HTML &amp; Javascript</title>
+				<link>http://localhost:4000/programming/Google-Map-Locations-on-Webpage/</link>
+				<pubDate>Sat, 18 Feb 2017 00:00:00 +0500</pubDate>
+				<description>&lt;p&gt;This contend will be updated soon.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/programming/Google-Map-Locations-on-Webpage/</guid>
+			</item>
+		
+			<item>
+				<title>Gulzaman Ilyas, Launches Github Experimental Site</title>
+				<link>http://localhost:4000/programming/gilyas-site-launched/</link>
+				<pubDate>Wed, 01 Feb 2017 00:00:00 +0500</pubDate>
+				<description>&lt;p&gt;Well. Finally got around to putting this old website together. Neat thing about it - powered by &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; 
+and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be :-).&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/programming/gilyas-site-launched/</guid>
+			</item>
+		
+	</channel>
+</rss>
