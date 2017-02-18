@@ -23,4 +23,57 @@ image:
     caption: Photo by UnSplash
     caption_url: http://unsplash.com/
 ---
-This contend will be updated soon.
+Below is the complete page code to display Google Map with HTML & Javascript using API.
+
+{% highlight html %}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div id="divMap" style="width: 500px; height: 500px">
+    </div>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBip14VfDly0JQJXcMDy7wUVIdS-MfAiVo"></script>
+    <script type="text/javascript">
+        var markers = [{'title': 'Islamabad','lat': '33.669300','lng': '72.844800','description': 'Capital City of Pakistan. Lush green and great views and weather.'},{'title': 'Lahore','lat': '31.924600','lng': '74.284700','description': 'Lahore City of Lively People, is the Heart of the Pakistani Province Punjab.'}];
+        window.onload = function () {
+            var mapOptions = {
+                center: new google.maps.LatLng(markers[0].lat, markers[0].lng),
+                zoom: 7,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                //disableDefaultUI: true
+                panControl: true,
+                zoomControl: true,
+                mapTypeControl: true,
+                scaleControl: true,
+                streetViewControl: true,
+                overviewMapControl: true,
+                rotateControl: true,
+                mapTypeId: google.maps.MapTypeId.TERRAIN
+            };
+            var infoWindow = new google.maps.InfoWindow();
+            var map = new google.maps.Map(document.getElementById("divMap"), mapOptions);
+            for (i = 0; i < markers.length; i++) {
+                var data = markers[i]
+                var myLatlng = new google.maps.LatLng(data.lat, data.lng);
+                var marker = new google.maps.Marker({
+                    position: myLatlng,
+                    map: map,
+                    title: data.title,
+                    animation: google.maps.Animation.BOUNCE
+                });
+                (function (marker, data) {
+                    google.maps.event.addListener(marker, "click", function (e) {
+                        infoWindow.setContent(data.description);
+                        infoWindow.open(map, marker);
+                    });
+                })(marker, data);
+            }
+        }
+    </script>
+
+</body>
+</html>
+{% endhighlight %}
+
