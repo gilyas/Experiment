@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>Open Source Repository Site by Gulzaman Ilyas</title>
-	<updated>2017-02-19T00:44:26+05:00</updated>
+	<updated>2017-02-19T00:50:31+05:00</updated>
 
 	<subtitle>»Open Source Repository Site by Gulzaman Ilyas« is one shop stop for open source code, snippets and much more...</subtitle>
 
@@ -46,12 +46,11 @@
 				</author>
 			
 			<summary>Do you want to use google maps on your site or in your project and wondering where to start? Than you likely will like the integration of &lt;em&gt;Google Maps&lt;/em&gt;. It enables you to display Maps and put locations marakers on maps that looks in each browser delicious.</summary>
-			<content type="html" xml:base="http://localhost:4000/programming/Google-Map-Locations-on-Webpage/">&lt;p&gt;You can see working copy on https://gilyas.github.io/google_maps_apis.github.io/google_maps_places_api/google_map_places.html&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/programming/Google-Map-Locations-on-Webpage/">&lt;p&gt;You can see working copy on:
+https://gilyas.github.io/google_maps_apis.github.io/google_maps_places_api/google_map_places.html&lt;/p&gt;
 
-&lt;p&gt;Below is a screenshot.
-&lt;img src=&quot;https://gilyas.github.io/images/screenshots/google_maps_places_javascript_api.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Want to download this code head over to https://github.com/gilyas/google_maps_apis.github.io&lt;/p&gt;
+&lt;p&gt;Want to download this code head over to:
+ https://github.com/gilyas/google_maps_apis.github.io&lt;/p&gt;
 
 &lt;p&gt;Below is complete page code to display Google Map with HTML &amp;amp; Javascript using Google Map Javascript API.&lt;br /&gt;&lt;/p&gt;
 
