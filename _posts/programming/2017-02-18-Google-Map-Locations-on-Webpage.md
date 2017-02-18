@@ -36,7 +36,7 @@ Put your Google API Key on this line:<br/>
 {% endhighlight %}
 
 <b>Note:</b><br/>
-Replace <b>YourKey</b> value with the key you get from [https://developers.google.com/maps/][3] as the one I am using will not work with your site it is specific to my site.
+Replace <b>YourKey</b> value with the key you get from [Google Developer Site Maps Section][3] as the one I am using will not work with your site it is specific to my site.
 
 Below is complete page code to display Google Map with markers using HTML & Javascript it requires Google Map API.<br/>
 

@@ -14,14 +14,14 @@
 				<pubDate>Sat, 18 Feb 2017 00:00:00 +0500</pubDate>
 				<description>&lt;p&gt;You can see working &lt;a href=&quot;https://gilyas.github.io/google_maps_apis.github.io/google_maps_places_api/google_map_places.html&quot;&gt;Demo here&lt;/a&gt;.&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Want to download this code head over to &lt;a href=&quot;https://github.com/gilyas/google_maps_apis.github.io&quot;&gt;My Code Repository&lt;/a&gt;.&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Want to download this code head over to &lt;a href=&quot;https://developers.google.com/maps/&quot;&gt;My Code Repository&lt;/a&gt;.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Put your Google API Key on this line:&lt;br /&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://maps.googleapis.com/maps/api/js?key=YourKey&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;br /&gt;
-Replace &lt;b&gt;YourKey&lt;/b&gt; value with the key you get from https://developers.google.com/maps/ as the one I am using will not work with your site it is specific to my site.&lt;/p&gt;
+Replace &lt;b&gt;YourKey&lt;/b&gt; value with the key you get from [https://developers.google.com/maps/][3] as the one I am using will not work with your site it is specific to my site.&lt;/p&gt;
 
 &lt;p&gt;Below is complete page code to display Google Map with markers using HTML &amp;amp; Javascript it requires Google Map API.&lt;br /&gt;&lt;/p&gt;
 
